@@ -1,0 +1,16 @@
+.site {
+	display: grid;
+	grid-template-columns: 2fr repeat(2, 1fr);
+	/* grid-template-columns:  repeat(4, 1fr 10px)  */
+	grid-template-rows: auto 1fr 3fr;
+	/* to split template half half */
+	/* grid-template-columns: 50% 50%; */
+
+	/* fraction unit represent a fraction of the available space in the grid container */
+	/* grid-template-columns: 1fr 2fr; */
+
+	/* minmax() function defines a size range greater than or equal to min endless then or equal to max. is useful in responsive design */
+
+
+}
+ 
